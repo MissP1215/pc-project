@@ -1,0 +1,224 @@
+@import 'mixin.scss';
+.main {
+    header {
+        @include backgroundType('../images/title_icon.jpg');
+        overflow: hidden;
+        padding-top: 27px;
+        padding-left: 15px;
+        @include borderType(15px);
+        .logo {
+            @include backgroundType('../images/header_icon.png');
+            @include area(100px, 70px);
+            @include floatType(left);
+        }
+        ul {
+            padding-top: 20px;
+            padding-left: 160px;
+            @include floatType(left);
+            li {
+                padding-right: 60px;
+                @include floatType(left);
+               p {
+                   font-size: 20px;
+                   color: #fff;
+               }
+            }
+        }
+        .headInput {
+            float: left;
+            background-color: #fff;
+            @include borderType(50px);
+            padding: 5px 5px 4px 15px;
+            margin-top: 21px;
+            input {
+                float: left;
+                padding-right: 42px;
+                border: none;
+                color: #ddd;
+            }
+            a {
+                @include area(18px, 18px);
+                @include backgroundType('../images/button.png');
+                @include floatType(right);
+            }
+        }
+    }
+    .content {
+        overflow: hidden;
+        .menu {
+            overflow: hidden;
+            ul {
+                li {
+                    float: left;
+                    font-size: 26px;
+                    text-align: right;
+                    padding: 60px 0 50px 45px;                                                                        
+                    .date {
+                        width: 366px;
+                        height: 64px;                       
+                        @include backgroundType('../images/date_icon.png', no-repeat, 39px);
+                        line-height: 90px;                                                                            
+                    }
+                    &:first-child {
+                        .noneP {
+                            height: 35px;
+                        }
+                    }
+                    &:nth-child(2) {
+                        .date {
+                            background-image: url('../images/people_icon.png');
+                            background-size: 50px;
+                            overflow: hidden;
+                            .roll {
+                                width: 290px;
+                                height: 10px;
+                                background-color: yellow;
+                                position: relative;
+                                @include borderType(5px);
+                                margin-left: 67px;
+                                margin-top: 40px;
+                                .beforRoll {
+                                    width: 60px;
+                                    height: 10px;
+                                    background-color: #c6b4af;
+                                    display: block;
+                                }
+                                .afterRoll {
+                                    @extend .beforRoll;
+                                    width: 10px;
+                                    height: 11px;                                   
+                                    background-color: #4c382e;
+                                    position: absolute;
+                                    top: -1px;
+                                    left: 60px;
+                                    @include borderType(2px);
+                                }
+                            }                             
+                        }
+                    }
+                    &:nth-child(3) {
+                        .date {
+                            background-image: url('../images/budget_icon.png');
+                            background-size: 50px;
+                            overflow: hidden;
+                            .roll {
+                                width: 290px;
+                                height: 10px;
+                                background-color: yellow;
+                                position: relative;
+                                @include borderType(5px);
+                                margin-left: 67px;
+                                margin-top: 40px;
+                                .beforRoll {
+                                    width: 60px;
+                                    height: 10px;
+                                    background-color: #c6b4af;
+                                    display: block;
+                                }
+                                .afterRoll {
+                                    @extend .beforRoll;
+                                    width: 10px;
+                                    height: 11px;                                   
+                                    background-color: #4c382e;
+                                    position: absolute;
+                                    top: -1px;
+                                    left: 60px;
+                                    @include borderType(2px);                                    
+                                }
+                            }                                                                                                                
+                        }
+                    }
+                    p {
+                        padding-right: 15px;
+                    }               
+                }
+            }
+        }
+        .title {
+            width: 756px;
+            text-align: center;
+            margin: 0 auto;
+            overflow: hidden;
+            margin-bottom: 20px;
+            ul {
+                padding-top: 15px;
+                li {
+                    border: 1px solid;
+                    color: #999;
+                    float: left;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    margin-right: 2px;
+                    @include borderType(8px);
+                    &.active {
+                        color: #000;
+                    }
+                    p {
+                        font-size: 20px;
+                        line-height: 50px;
+                    }
+                }
+            }
+        }
+        .list {
+            overflow: hidden;
+            padding-bottom: 40px;            
+            &.test-show {
+                display: block;
+            }
+            ul {
+                li {
+                    width: 307px;
+                    float: left;
+                    margin-left: 6px;
+                    margin-right: 6px;
+                    color: #999;
+                    border: 1px solid;
+                    box-sizing: border-box;
+                    background-color: #fff;
+                    @include borderType(5px);                    
+                    a {
+                        display: block;
+                        font-size: 18px;
+                        padding-top: 7px;
+                        span {
+                            padding-left: 10px;
+                            white-space:nowrap;
+                            overflow:hidden;
+                            text-overflow:ellipsis;
+                            display: block;
+                        }
+                        img {
+                            width: 100%;
+                            padding-top: 5px;
+                        }
+                    }
+                    p {
+                        font-size: 15px;
+                        padding-left: 13px;
+                        padding-right: 5px;
+                        line-height: 35px;
+                        &.pirce {
+                            text-align: right;
+                            color: #666;
+                        }
+                        &.visit {
+                            text-align: right;
+                        }
+                        &.add {
+                            input {
+                                margin-right: 5px;
+                            }
+                        }
+                        &.footerP {
+                            background-color: #ddd;
+                            border-top: 1px solid;
+                            @include borderType(5px);
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

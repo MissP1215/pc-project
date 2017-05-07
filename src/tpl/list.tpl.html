@@ -1,0 +1,17 @@
+<div class="list">
+    <ul>
+        <% for(var i = 0; i < list.length; i++){ %>
+            <li>
+                <a>
+                    <span><%= list[i].name %></span>
+                    <img src="<%= list[i].img %>">
+                </a>
+                <p class="foodname"><%= list[i].text %></p>
+                <p class="pirce"><%= list[i].pirce %></p>
+                <p class="visit"><%= list[i].visit %></p>
+                <p class="add"><input type="radio" name="add" checked="checked"><%= list[i].add %></p>
+                <p class="footerP"><%= list[i].content %></p>                            
+            </li>
+        <% } %>
+    </ul>
+</div>

@@ -1,0 +1,32 @@
+@mixin blockLeft {
+	 display: block;
+	 float: left;
+}
+@mixin floatType($left) {
+	 @if $left == left {
+		 float: left;
+	 } @else {
+		float: right;
+	 }
+	 float: $left;
+	 display: block;
+}
+@mixin backgroundType($img, $repeat:no-repeat, $size:100%) {
+	background-image: url($img);
+	background-repeat: $repeat;
+	background-size: $size;	 
+}
+@mixin area($width, $height) {
+	 width: $width;
+	 height: $height;
+}
+@mixin borderType($radius) {
+	 border-radius: $radius;
+}
+
+.test-hide {
+	display: none;
+}
+.test-show {
+	display: block;
+}

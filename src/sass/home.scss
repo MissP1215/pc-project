@@ -1,0 +1,159 @@
+
+ @import 'mixin.scss';
+.main{
+	header {
+		@include backgroundType('../images/icon.png');
+		overflow: hidden;
+		padding-top: 27px;
+		padding-left: 5px;
+		@include borderType(15px);
+		.logo {
+			@include area(100px, 70px);			
+			@include floatType(left);
+			@include backgroundType('../images/header_icon.png');
+		}
+		ul {
+			padding-top: 22px;
+			padding-left: 175px;
+			@include blockLeft;
+			li {
+				@include floatType(left);
+				padding-right: 60px;
+				a {
+					display: block;					
+					@include area(100px, 50px);
+					@include backgroundType('../images/icon_1.png');
+					&.icon2 {
+						background-image: url('../images/icon_2.png');						
+					}
+					&.iconGen {
+						background-image: url('../images/icon_3.png');												
+					}
+					&.iconMy {
+						background-image: url('../images/icon_4.png');												
+					}
+
+				}
+				
+			}
+		}
+		.headInput {
+			width: 205px;
+			background-color: #fff;
+			float: left;
+			padding: 5px 5px 5px 15px;
+			margin-top: 21px;
+			@include borderType(50px);
+			input {
+				float: left;
+				border: none;
+    			margin-top: 2px;
+				color: #ddd;
+				float: left;
+			}
+			a {
+				@include area(18px, 18px);
+				@include floatType(right);
+				@include borderType(50%);
+				@include backgroundType('../images/button.png');
+				
+			}
+		}
+	}
+	.content {
+		.titleIcon {
+			overflow: hidden;
+			width: 480px;
+    		margin: 0 auto;
+			ul {
+				padding-top: 24px;
+				li {
+					float: left;
+					padding-right: 20px;
+					&.active {
+						border: 1px solid;
+					}
+					a {
+						display: block;
+						width: 130px;
+						height: 50px;
+						background-position: center;
+						@include backgroundType('../images/content_icon1.png');
+						&.iconL {
+							background-image: url('../images/content_icon2.png');
+						}
+						&.iconG {
+							background-image: url('../images/content_icon3.png');							
+						}
+					}
+				}
+			}
+		}
+		.list-box {
+			padding-top: 20px;
+			.list {
+				overflow: hidden;
+				color: #999;
+				display: none;
+				&.test-show {
+					display: block;
+				}
+				&:nth-child(2) {
+					ul {
+						li {
+							background-color: #d99;							
+						}
+					}
+				}
+				ul {
+					li {
+						float: left;
+						width: 307px;
+						border: 1px solid;
+						background-color: #fff;
+						@include borderType(6px);
+						box-sizing: border-box;
+						margin-left:6px;										
+						margin-right: 6px;		
+						a {
+							display: block;
+							font-size: 18px;
+							padding-top: 7px;
+							span {
+								padding-left: 10px;
+							}
+							img{
+								width: 100%;
+								padding-top: 5px;
+							}
+						}
+						p {
+							font-size: 15px;
+							line-height: 35px;
+							padding-left: 13px;
+							padding-right: 5px;						
+							&.price {
+								text-align: right;
+							}
+							&.visit {
+								font-size: 13px;
+								text-align: right;
+							}
+							.add {
+								input {
+									margin-right: 5px;
+								}
+							}
+							&.footerP {
+								border-top: 1px solid;
+								@include borderType(5px);
+								background-color: #ddd;
+								text-align: center;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

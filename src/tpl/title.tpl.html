@@ -1,0 +1,7 @@
+<% for(var i = 0; i < title.length; i++){ %>
+    <% if (i == 0) {%>
+        <li class="active" data-id="<%= title[i].text_id %>"><p><%= title[i].text %></p></li>
+    <% } else { %>
+        <li data-id="<%= title[i].text_id %>"><p><%= title[i].text %></p></li>
+    <% } %>
+<% } %>
