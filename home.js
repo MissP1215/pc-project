@@ -1,6 +1,7 @@
 define(function(require, exports, module) {
     var lang = require('lang').lang;
     var public = require('public');
+        console.log(public);
     
     var home = {
         init: function() {
