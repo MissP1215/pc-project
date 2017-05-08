@@ -1,0 +1,88 @@
+{
+    "status": "1",
+    "errmsg": "",
+    "data": {
+        "title": [
+            {
+                "text_id": "10",
+                "text": "甜品"
+            },
+            {
+                "text_id": "20",
+                "text": "饮料"
+            },
+            {
+                "text_id": "30",
+                "text": "小吃"
+            }
+        ],
+        "list": {
+            "10": [
+                {
+                    
+                    "name": "甜品",    
+                    "img": "../images/sweetmeats.jpg",            
+                    "text": "甜品",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Food..."
+                },
+                 {
+                    
+                    "name": "甜品",    
+                    "img": "../images/sweetmeats.jpg",            
+                    "text": "甜品",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Food..."
+                },
+                 {
+                    
+                    "name": "甜品",    
+                    "img": "../images/sweetmeats.jpg",            
+                    "text": "甜品",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Food..."
+                },
+                 {
+                    
+                    "name": "甜品",    
+                    "img": "../images/sweetmeats.jpg",            
+                    "text": "甜品",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Food..."
+                }
+            ],
+            "20": [
+                {
+                    
+                    "name": "饮料",    
+                    "img": "../images/drink.jpg",            
+                    "text": "饮料",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Food..."
+                }
+            ],
+            "30": [
+                {
+                    
+                    "name": "饮料",    
+                    "img": "../images/dali.jpg",            
+                    "text": "甜品",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Food..."
+                }
+            ]
+        }
+    }
+}

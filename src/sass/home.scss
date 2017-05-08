@@ -2,7 +2,7 @@
  @import 'mixin.scss';
 .main{
 	header {
-		@include backgroundType('../images/icon.png');
+		@include backgroundType('../images/cao.jpg');
 		overflow: hidden;
 		padding-top: 27px;
 		padding-left: 5px;
@@ -72,19 +72,10 @@
 					padding-right: 20px;
 					&.active {
 						border: 1px solid;
+						background-color: #d99;
 					}
-					a {
-						display: block;
-						width: 130px;
-						height: 50px;
-						background-position: center;
-						@include backgroundType('../images/content_icon1.png');
-						&.iconL {
-							background-image: url('../images/content_icon2.png');
-						}
-						&.iconG {
-							background-image: url('../images/content_icon3.png');							
-						}
+					p {
+						font-size: 20px;
 					}
 				}
 			}
@@ -94,7 +85,6 @@
 			.list {
 				overflow: hidden;
 				color: #999;
-				display: none;
 				&.test-show {
 					display: block;
 				}

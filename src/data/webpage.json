@@ -17,15 +17,15 @@
             },
             {
                 "text_id": "40",
-                "text": "Relax"
+                "text": "北京"
             },
             {
                 "text_id": "50",
-                "text": "Rush"
+                "text": "苏州"
             },
             {
                 "text_id": "60",
-                "text": "Shopping"
+                "text": "内蒙古"
             }
         ],
         "list": {
@@ -145,35 +145,116 @@
             ],
             "40": [
                 {
-                    "name": "Japanese Resturant4444444444444444",    
-                    "img": "../images/cont_piture.png",            
-                    "text": "Food Japanese",
+                    "name": "北京",    
+                    "img": "../images/beijing.jpg",            
+                    "text": "北京",
                     "pirce": "$180",
                     "visit": "1,860 visit",
                     "add": "Add",
-                    "content": "Find Quick & Easy Chinese Lunch Re..."
+                    "content": "Find the most beautiful Re..."
+                },
+                  {
+                    "name": "北京",    
+                    "img": "../images/beijing.jpg",            
+                    "text": "北京",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Find the most beautiful Re..."
+                },
+                  {
+                    "name": "北京",    
+                    "img": "../images/beijing.jpg",            
+                    "text": "北京",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Find the most beautiful Re..."
+                },
+                  {
+                    "name": "北京",    
+                    "img": "../images/beijing.jpg",            
+                    "text": "北京",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Find the most beautiful Re..."
                 }
             ],
             "50": [
                 {
-                    "name": "Japanese Resturan555555555555555t",    
-                    "img": "../images/cont_piture.png",            
-                    "text": "Food Japanese",
+                    "name": "苏州",    
+                    "img": "../images/suzhou.jpg",            
+                    "text": "苏州",
                     "pirce": "$180",
                     "visit": "1,860 visit",
                     "add": "Add",
-                    "content": "Find Quick & Easy Chinese Lunch Re..."
+                    "content": "Find the most beautiful Re..."
+                },
+                {
+                    "name": "苏州",    
+                    "img": "../images/suzhou.jpg",            
+                    "text": "苏州",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Find the most beautiful Re..."
+                },
+                {
+                    "name": "苏州",    
+                    "img": "../images/suzhou.jpg",            
+                    "text": "苏州",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Find the most beautiful Re..."
+                },
+                {
+                    "name": "苏州",    
+                    "img": "../images/suzhou.jpg",            
+                    "text": "苏州",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Find the most beautiful Re..."
                 }
             ],
             "60": [
                 {
-                    "name": "Japanese Resturant666666666666666666",    
-                    "img": "../images/cont_piture.png",            
-                    "text": "Food Japanese",
+                    "name": "内蒙古",    
+                    "img": "../images/neimenggu.jpg",            
+                    "text": "内蒙古",
                     "pirce": "$180",
                     "visit": "1,860 visit",
                     "add": "Add",
-                    "content": "Find Quick & Easy Chinese Lunch Re..."
+                    "content": "Find the most beautiful Re..."
+                },
+                 {
+                    "name": "内蒙古",    
+                    "img": "../images/neimenggu.jpg",            
+                    "text": "内蒙古",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Find the most beautiful Re..."
+                },
+                 {
+                    "name": "内蒙古",    
+                    "img": "../images/neimenggu.jpg",            
+                    "text": "内蒙古",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Find the most beautiful Re..."
+                },
+                 {
+                    "name": "内蒙古",    
+                    "img": "../images/neimenggu.jpg",            
+                    "text": "内蒙古",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Find the most beautiful Re..."
                 }
             ]
         }
