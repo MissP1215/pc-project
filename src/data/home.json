@@ -69,14 +69,74 @@
                     "visit": "1,860 visit",
                     "add": "Add",
                     "content": "Food..."
+                },
+                {
+                    
+                    "name": "饮料",    
+                    "img": "../images/drink.jpg",            
+                    "text": "饮料",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Food..."
+                },
+                {
+                    
+                    "name": "饮料",    
+                    "img": "../images/drink.jpg",            
+                    "text": "饮料",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Food..."
+                },
+                {
+                    
+                    "name": "饮料",    
+                    "img": "../images/drink.jpg",            
+                    "text": "饮料",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Food..."
                 }
             ],
             "30": [
                 {
                     
-                    "name": "饮料",    
-                    "img": "../images/dali.jpg",            
-                    "text": "甜品",
+                    "name": "小吃",    
+                    "img": "../images/ba.jpg",            
+                    "text": "糖油粑粑",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Food..."
+                },
+                {
+                    
+                    "name": "小吃",    
+                    "img": "../images/ba.jpg",            
+                    "text": "糖油粑粑",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Food..."
+                },
+                {
+                    
+                    "name": "小吃",    
+                    "img": "../images/ba.jpg",            
+                    "text": "糖油粑粑",
+                    "pirce": "$180",
+                    "visit": "1,860 visit",
+                    "add": "Add",
+                    "content": "Food..."
+                },
+                {
+                    
+                    "name": "小吃",    
+                    "img": "../images/ba.jpg",            
+                    "text": "糖油粑粑",
                     "pirce": "$180",
                     "visit": "1,860 visit",
                     "add": "Add",

@@ -14,31 +14,18 @@
 		}
 		ul {
 			padding-top: 22px;
-			padding-left: 175px;
+			padding-left: 230px;
 			@include blockLeft;
 			li {
 				@include floatType(left);
-				padding-right: 60px;
-				a {
-					display: block;					
-					@include area(100px, 50px);
-					@include backgroundType('../images/icon_1.png');
-					&.icon2 {
-						background-image: url('../images/icon_2.png');						
-					}
-					&.iconGen {
-						background-image: url('../images/icon_3.png');												
-					}
-					&.iconMy {
-						background-image: url('../images/icon_4.png');												
-					}
-
+				padding-right: 80px;
+				p {
+					font-size: 20px;
+					color: #fff;
 				}
-				
 			}
 		}
 		.headInput {
-			width: 205px;
 			background-color: #fff;
 			float: left;
 			padding: 5px 5px 5px 15px;
@@ -52,6 +39,7 @@
 				float: left;
 			}
 			a {
+				margin-top: 2px;
 				@include area(18px, 18px);
 				@include floatType(right);
 				@include borderType(50%);
@@ -63,12 +51,13 @@
 	.content {
 		.titleIcon {
 			overflow: hidden;
-			width: 480px;
     		margin: 0 auto;
+			text-align: center;
 			ul {
 				padding-top: 24px;
 				li {
-					float: left;
+					display: inline-block;
+					padding-left: 20px;
 					padding-right: 20px;
 					&.active {
 						border: 1px solid;
@@ -76,6 +65,7 @@
 					}
 					p {
 						font-size: 20px;
+						line-height: 50px;
 					}
 				}
 			}

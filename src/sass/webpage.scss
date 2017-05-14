@@ -135,7 +135,6 @@
             }
         }
         .title {
-            width: 756px;
             text-align: center;
             margin: 0 auto;
             overflow: hidden;
@@ -145,10 +144,10 @@
                 li {
                     border: 1px solid;
                     color: #999;
-                    float: left;
                     padding-left: 25px;
                     padding-right: 25px;
                     margin-right: 2px;
+                    display: inline-block;
                     @include borderType(8px);
                     &.active {
                         color: #000;

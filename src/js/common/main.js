@@ -6,7 +6,7 @@ require.config({
         //公共
         public: 'common/public',
         lang: 'common/lang',
-
+        bootstrap: '../bootstrap-3.3.7-dist/js/bootstrap.min',
         //私有
         home: 'home',
 		webpage: 'webpage',

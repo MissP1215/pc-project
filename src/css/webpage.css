@@ -127,7 +127,6 @@
       .main .content .menu ul li p {
         padding-right: 15px; }
   .main .content .title {
-    width: 756px;
     text-align: center;
     margin: 0 auto;
     overflow: hidden;
@@ -137,10 +136,10 @@
       .main .content .title ul li {
         border: 1px solid;
         color: #999;
-        float: left;
         padding-left: 25px;
         padding-right: 25px;
         margin-right: 2px;
+        display: inline-block;
         border-radius: 8px; }
         .main .content .title ul li.active {
           color: #000; }
